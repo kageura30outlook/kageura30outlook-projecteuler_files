@@ -1,0 +1,30 @@
+public class Hello{
+    public static void Main(){
+        // Your code here!
+         int [] sum = new int [1000];
+         int num = 0;
+         for(int i = 0; i < 1000; i++)
+            {
+                sum[i] = i + 1;
+            }
+        for(int s = 0; s < 1000; s++)
+        {
+            if(sum[s] % 3 == 0)
+            {
+                num = sum[s] + num;
+                System.Console.WriteLine(num);
+            }
+            
+            if(sum[s] % 5 == 0 && sum[s] != -1)
+            {
+                num = sum[s] + num;
+                System.Console.WriteLine(num);
+            }
+        }
+        
+        System.Console.WriteLine(num);
+        
+        
+        
+    }
+}
