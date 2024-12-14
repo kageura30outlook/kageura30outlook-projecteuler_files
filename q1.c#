@@ -1,5 +1,4 @@
-public class Hello{
-    public static void Main(){
+
         // Your code here!
          int [] sum = new int [1000];
          int num = 0;
@@ -23,8 +22,4 @@ public class Hello{
         }
         
         System.Console.WriteLine(num);
-        
-        
-        
-    }
-}
+        }

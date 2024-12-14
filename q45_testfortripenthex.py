@@ -35,7 +35,7 @@ for i in range (1, 300):
 for r in range (1,300):
     print(r)
     if check1[r] in check2:
-        print("Rinn")
+        print("Found!")
         if check1[r] in check3:
             print(check1[r])
             break

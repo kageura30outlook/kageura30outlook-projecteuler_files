@@ -1,5 +1,4 @@
 num = 1
-yousei = 0
 answer1 = 0
 answer2 =0
 answer3 = 0
