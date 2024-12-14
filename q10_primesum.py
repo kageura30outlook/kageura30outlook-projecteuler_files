@@ -1,49 +1,49 @@
 using System; 
 public class Hello{
-    public static bool　buri(int i){
-        int warizan = 2;
-        bool hanntei = true;
+    public static bool　core(int i){
+        int divider = 2;
+        bool checker = true;
         if(i == 1)
         {
-            hanntei = false;
-            return hanntei;
+            checker = false;
+            return checker;
         }
         else if(i == 2)
         {
-            hanntei = true;
-            return hanntei;
+            checker = true;
+            return checker;
         }
         else;
         {
             for(int r = 1; r <= Math.Sqrt(i); r++){
-                if (i % warizan == 0){
-                    hanntei = false;
+                if (i % divider == 0){
+                    checker = false;
                     break;
                 }
                 else;
                 {
-                    warizan = warizan + 1;
+                    divider = divider + 1;
                 }
             
             
             }
         }
 
-        return hanntei;
+        return checker;
     }
     public static void Main(){
-    int listener = 0;
+    int num = 0;
 
         for(int i = 1; i <= 10000; i++)
         {
-            if(buri(i) == true)
+            if(core(i) == true)
             {
-                listener = listener + i;
+                num = num + i;
 
             }
             
         }
         
-        Console.WriteLine(listener); 
+        Console.WriteLine(num); 
     }
 }
