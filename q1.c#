@@ -1,5 +1,4 @@
 
-        // Your code here!
          int [] sum = new int [1000];
          int num = 0;
          for(int i = 0; i < 1000; i++)
