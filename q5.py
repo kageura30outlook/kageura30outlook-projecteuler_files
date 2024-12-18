@@ -3,7 +3,7 @@ i = 0
 while repeater == 1:
     i = 1 + i
     counter = 0
-    for r in range (1,5):
+    for r in range (1,21):
         num = i%r
         if num == 0:
             counter = counter + 1
